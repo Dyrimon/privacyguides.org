@@ -1,0 +1,45 @@
+title: Brave
+type: Recommendation
+logo: /assets/img/browsers/brave.svg
+description: |
+  **Brave** is built upon the Chromium browser, featuring a built in adblocker and some [privacy features](https://brave.com/privacy-features/) enabled by default.
+
+  We only recommend Brave as a desktop browser. There are better [alternatives on mobile platforms](/browsers/#mobile-only-recommendations).
+
+  ##### **Shields**
+  Change the adblocker to agressive mode (≡ Settings → Shields → Trackers & ads blocking).
+
+  Change the fingerprinting blocker to strict mode (≡ Settings → Shields → Fingerprint blocking). You can always downgrade it if you need to. We **do not** believe the [fingerprint protection](https://brave.com/privacy-updates/4-fingerprinting-defenses-2.0/) Brave offers is as strong as that of a [well-configured Firefox](https://support.mozilla.org/kb/firefox-protection-against-fingerprinting).
+
+  ##### **Social media blocking**
+  Disable social media components (≡ Settings → Social media blocking -> Uncheck all options).
+
+  ##### **Privacy and Security**
+  There are a few options in here you may want to change.
+
+  * Set the [WebRTC IP Handling Policy](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc) to *Disable Non-Proxied UDP* (≡ Settings → Privacy and Security → WebRTC IP handling policy).
+  * Enable https everywhere (≡ Settings → Privacy and Security → Security → Always use secure connections)
+
+  ##### **Sanitizing on close**
+  Select every option in clear browsing data on exit except *Site and Shields settings* (≡ Settings → Privacy and Security → Clear browsing data → On exit).
+
+  ##### **Extensions**
+  Disable all extensions which you do not use (≡ Settings → Extensions). You should not use the Tor tab in Brave. Brave is **not** as resistant to fingerprinting as the Tor Browser and will make you stand out.
+
+  ##### **IPFS**
+  InterPlanetary File System (IPFS) is a decentralized peer-to-peer network for storing and sharing data in a distributed filesystem. Unless you use it, consider disabling this (≡ Settings → IPFS → Method to resolve IPFS resources).
+
+  ##### **Background apps**
+  Disable background apps (≡ Settings → System → Continue running apps when Brave is closed).
+
+website: 'https://brave.com/'
+privacy_policy: 'https://brave.com/privacy/browser/'
+downloads:
+  - icon: fab fa-windows
+    url: 'https://laptop-updates.brave.com/latest/winx64'
+  - icon: fab fa-apple
+    url: 'https://laptop-updates.brave.com/latest/osxarm64'
+  - icon: fab fa-linux
+    url: 'https://brave.com/linux/#linux'
+  - icon: fab fa-github
+    url: 'https://github.com/brave/brave-browser'
